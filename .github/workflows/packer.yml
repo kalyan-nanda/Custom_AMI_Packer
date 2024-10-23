@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - master  # Ensure this matches your default branch
-
+  workflow_dispatch:
 jobs:
   packer:
     runs-on: ubuntu-latest
