@@ -24,7 +24,7 @@ variable "ami_filters" {
 
 variable "ami_owners" {
   type    = list(string)
-  default = ["879381257555"]
+  default = ["099720109477"]
 }
 
 variable "ssh_username" {
