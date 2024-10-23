@@ -18,7 +18,7 @@ source "amazon-ebs" "ubuntu" {
       virtualization-type = "hvm"
     }
     most_recent = true
-    owners      = ["099720109477"]
+    owners      = ["879381257555"]
   }
   ssh_username = "ubuntu"
 }
