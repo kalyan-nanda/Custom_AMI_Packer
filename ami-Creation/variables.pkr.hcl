@@ -16,7 +16,7 @@ variable "region" {
 variable "ami_filters" {
   type = map(string)
   default = {
-    name                = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-arm64-server-20240927"
+    name                = "Deep Learning AMI Neuron (Ubuntu 22.04) 20240927"
     root-device-type    = "ebs"
     virtualization-type = "hvm"
   }
@@ -24,7 +24,7 @@ variable "ami_filters" {
 
 variable "ami_owners" {
   type    = list(string)
-  default = ["099720109477"]
+  default = ["898082745236"]
 }
 
 variable "ssh_username" {
