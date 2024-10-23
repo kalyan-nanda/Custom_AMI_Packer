@@ -16,7 +16,7 @@ variable "region" {
 variable "ami_filters" {
   type = map(string)
   default = {
-    name                = "ubuntu/images/hvm-ssd-gp3/ubuntu-noble-24.04-arm64-server-20240927"
+    name                = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-arm64-server-20240927"
     root-device-type    = "ebs"
     virtualization-type = "hvm"
   }
